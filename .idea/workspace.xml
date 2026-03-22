@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df639453-08cc-4bd8-a0f8-cb09a4e4025b" name="Changes" comment="Tema2.Semestrul2">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema 3.Cafenea – Comenzi, Stoc și Reduceri din Fișiere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/produse.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reduceri.json" afterDir="false" />
-    </list>
+    <list default="true" id="df639453-08cc-4bd8-a0f8-cb09a4e4025b" name="Changes" comment="Tema3.Semestrul2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,13 +98,22 @@
       <option name="project" value="LOCAL" />
       <updated>1773493763849</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tema3.Semestrul2">
+      <option name="closed" value="true" />
+      <created>1774184253742</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774184253742</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tema1.Semestrul2" />
     <MESSAGE value="Tema2.Semestrul2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema2.Semestrul2" />
+    <MESSAGE value="Tema3.Semestrul2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema3.Semestrul2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
