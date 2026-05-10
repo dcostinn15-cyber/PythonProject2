@@ -20,14 +20,14 @@ def citeste_reduceri_json(fisier):
         return json.load(f)
 
 
-# 3 Afisare meniu produse
+# 2 Afisare meniu produse
 def afiseaza_meniu(produse):
     print("\n--- MENIU ---")
     for id_produs, produs in produse.items():
         print(f"{id_produs}. {produs['nume']} - {produs['pret']} lei (stoc: {produs['stoc']})")
 
 
-# 4 Adaugare produs
+# 3 Adaugare produs
 def adauga_produs(comanda, produse, id_produs, cantitate):
     if id_produs not in produse:
         print("Produs invalid!")
@@ -48,7 +48,7 @@ def adauga_produs(comanda, produse, id_produs, cantitate):
     print("Produs adaugat!")
 
 
-# 5 Scadere produs
+# 4 Scadere produs
 def scade_produs(comanda, id_produs, cantitate):
     if id_produs not in comanda:
         print("Produsul nu este in comanda!")
@@ -66,7 +66,7 @@ def scade_produs(comanda, id_produs, cantitate):
     print("Produs actualizat!")
 
 
-# 6 Calcul total
+# 5 Calcul total
 def calculeaza_total(comanda, produse):
     total = 0
     for id_produs, cant in comanda.items():
@@ -74,7 +74,7 @@ def calculeaza_total(comanda, produse):
     return total
 
 
-# 7 Calcul total si reducere
+# 6 Calcul total si reducere
 def calculeaza_reducere(total, tip, reduceri):
     if tip == "" or tip not in reduceri:
         return 0
@@ -91,7 +91,7 @@ def calculeaza_reducere(total, tip, reduceri):
         return regula["valoare"]
 
 
-# 8 Bon
+# 7 Bon
 def genereaza_bon(comanda, produse, total, reducere):
     text = "\n--- BON ---\n"
     for id_produs, cantitate in comanda.items():
@@ -111,12 +111,12 @@ def scrie_bon_txt(fisier, text):
         f.write(text)
 
 
-# 10 Anulare comanda
+# 8 Anulare comanda
 def goleste_comanda(comanda):
     comanda.clear()
 
 
-# Program principal
+# 9 Program principal
 def main():
     produse = citeste_produse_csv("produse.csv")
     reduceri = citeste_reduceri_json("reduceri.json")
@@ -180,7 +180,7 @@ def main():
 
             scrie_bon_txt("bon.txt", bon)
 
-# Actualizare stoc
+# 10 Actualizare stoc
             for id_produs, cantitate in comanda.items():
                 produse[id_produs]["stoc"] -= cantitate
 

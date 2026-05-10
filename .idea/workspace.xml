@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df639453-08cc-4bd8-a0f8-cb09a4e4025b" name="Changes" comment="Tema3.Semestrul2">
-      <change afterPath="$PROJECT_DIR$/Tema 4-Sistem de Ranking pentru Competiții Sportive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/competitori.json" afterDir="false" />
+    <list default="true" id="df639453-08cc-4bd8-a0f8-cb09a4e4025b" name="Changes" comment="Tema4.Semestrul2">
+      <change afterPath="$PROJECT_DIR$/Tema 5-Analiză comparativă pentru Bubble Sort, Quick Sort și Merge Sort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tema 3.Cafenea – Comenzi, Stoc și Reduceri din Fișiere.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 3.Cafenea – Comenzi, Stoc și Reduceri din Fișiere.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/produse.csv" beforeDir="false" afterPath="$PROJECT_DIR$/produse.csv" afterDir="false" />
@@ -42,6 +41,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="3Af7pIlHj49ukOiw7VqKczbHVb3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,6 +53,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Tema 3.Cafenea – Comenzi, Stoc și Reduceri din Fișiere.executor": "Run",
     "Python.Tema 4-Sistem de Ranking pentru Competiții Sportive.executor": "Run",
+    "Python.Tema 5-Analiză comparativă pentru Bubble Sort, Quick Sort și Merge Sort.executor": "Run",
     "Python.Tema1.Cafenea.executor": "Run",
     "Python.Tema2.Glosar interactiv.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -121,14 +124,23 @@
       <option name="project" value="LOCAL" />
       <updated>1774184463364</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Tema4.Semestrul2">
+      <option name="closed" value="true" />
+      <created>1774717475984</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774717475984</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tema1.Semestrul2" />
     <MESSAGE value="Tema2.Semestrul2" />
     <MESSAGE value="Tema3.Semestrul2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema3.Semestrul2" />
+    <MESSAGE value="Tema4.Semestrul2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema4.Semestrul2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
