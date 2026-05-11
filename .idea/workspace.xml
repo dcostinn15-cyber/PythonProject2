@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df639453-08cc-4bd8-a0f8-cb09a4e4025b" name="Changes" comment="Tema4.Semestrul2">
-      <change afterPath="$PROJECT_DIR$/Tema 5-Analiză comparativă pentru Bubble Sort, Quick Sort și Merge Sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 6-Sistem de optimizare a investițiilor folosind Programare Dinamică.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/investitii.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema 3.Cafenea – Comenzi, Stoc și Reduceri din Fișiere.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tema 3.Cafenea – Comenzi, Stoc și Reduceri din Fișiere.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produse.csv" beforeDir="false" afterPath="$PROJECT_DIR$/produse.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     "Python.Tema 3.Cafenea – Comenzi, Stoc și Reduceri din Fișiere.executor": "Run",
     "Python.Tema 4-Sistem de Ranking pentru Competiții Sportive.executor": "Run",
     "Python.Tema 5-Analiză comparativă pentru Bubble Sort, Quick Sort și Merge Sort.executor": "Run",
+    "Python.Tema 6-Sistem de optimizare a investițiilor folosind Programare Dinamică.executor": "Run",
     "Python.Tema1.Cafenea.executor": "Run",
     "Python.Tema2.Glosar interactiv.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -132,8 +132,27 @@
       <option name="project" value="LOCAL" />
       <updated>1774717475984</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Tema4.Semestrul2">
+      <option name="closed" value="true" />
+      <created>1778435203422</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1778435203422</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tema1.Semestrul2" />
