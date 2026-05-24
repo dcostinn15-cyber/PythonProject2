@@ -95,7 +95,7 @@ print(f"Cea mai buna echipa gasita: {echipa_finala}")
 print(f"Cost total: {cost_final} (Buget maxim permis: {BUGET_MAX})")
 print(f"Scor total de competenta (Fitness): {scor_final}")
 
-# 7. Graficul evolutiei fitness-ului
+# 7. Graficul evolutiei fitness-ului.
 plt.figure(figsize=(9, 5))
 plt.plot(range(GENERATII), istoric_best_fitness, marker='x', color='darkgreen', label='Cel mai bun fitness')
 plt.title('Evolutia calitatii solutiilor (Fitness) de-a lungul generatiilor')

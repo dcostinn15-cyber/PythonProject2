@@ -42,6 +42,6 @@ plt.ylabel('Probabilitate estimata')
 plt.legend()
 plt.grid(True, linestyle=':', alpha=0.6)
 
-# Salvare grafic
+# Salvare grafic.
 plt.savefig('proiect1_monte_carlo.png', dpi=300)
 plt.show()

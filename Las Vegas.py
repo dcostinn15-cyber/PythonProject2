@@ -60,7 +60,7 @@ ax1.set_ylabel('Pasi efectuati')
 ax1.legend()
 ax1.grid(True)
 
-# Grafic 2: Cresterea complexitatii cu dimensiunea n
+# Grafic 2: Cresterea complexitatii cu dimensiunea n.
 ax2.bar([str(d) for d in dimensiuni], medii_dimensiuni, color='teal', alpha=0.8)
 ax2.set_title('Media pasilor in functie de dimensiune')
 ax2.set_xlabel('Dimensiune vector (n)')
