@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df639453-08cc-4bd8-a0f8-cb09a4e4025b" name="Changes" comment="Tema4.Semestrul2">
-      <change afterPath="$PROJECT_DIR$/Tema 6-Sistem de optimizare a investițiilor folosind Programare Dinamică.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/investitii.json" afterDir="false" />
+    <list default="true" id="df639453-08cc-4bd8-a0f8-cb09a4e4025b" name="Changes" comment="Tema6.Semestrul2">
+      <change afterPath="$PROJECT_DIR$/Algoritmi genetici.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Las Vegas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema 7-Algoritmi Monte Carlo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,10 +51,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Algoritmi genetici.executor": "Run",
+    "Python.Las Vegas.executor": "Run",
     "Python.Tema 3.Cafenea – Comenzi, Stoc și Reduceri din Fișiere.executor": "Run",
     "Python.Tema 4-Sistem de Ranking pentru Competiții Sportive.executor": "Run",
     "Python.Tema 5-Analiză comparativă pentru Bubble Sort, Quick Sort și Merge Sort.executor": "Run",
     "Python.Tema 6-Sistem de optimizare a investițiilor folosind Programare Dinamică.executor": "Run",
+    "Python.Tema 7-Algoritmi randomizați.executor": "Run",
     "Python.Tema1.Cafenea.executor": "Run",
     "Python.Tema2.Glosar interactiv.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -140,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778435203422</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Tema6.Semestrul2">
+      <option name="closed" value="true" />
+      <created>1778492334163</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1778492334164</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +171,8 @@
     <MESSAGE value="Tema2.Semestrul2" />
     <MESSAGE value="Tema3.Semestrul2" />
     <MESSAGE value="Tema4.Semestrul2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tema4.Semestrul2" />
+    <MESSAGE value="Tema6.Semestrul2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tema6.Semestrul2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
