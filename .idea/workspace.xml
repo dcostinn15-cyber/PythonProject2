@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df639453-08cc-4bd8-a0f8-cb09a4e4025b" name="Changes" comment="Tema6.Semestrul2">
-      <change afterPath="$PROJECT_DIR$/Algoritmi genetici.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Las Vegas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema 7-Algoritmi Monte Carlo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="df639453-08cc-4bd8-a0f8-cb09a4e4025b" name="Changes" comment="Tema6.Semestrul2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778492334164</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Tema6.Semestrul2">
+      <option name="closed" value="true" />
+      <created>1779632487261</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1779632487262</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
