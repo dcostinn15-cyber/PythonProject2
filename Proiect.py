@@ -23,10 +23,10 @@ class ListaParole:
     def __init__(self):
         self.head = None
         #aceasta este o listă simplu înlănțuită
-        #la inceput lista este goala
+        #la început lista este goala
         #head=primul element din lista
 
-#4functia de adaugare
+#4funcția de adăugare
     def adauga(self, site, username, parola):
         nod = Nod(site, username, parola)
         #creeaza un nod nou
@@ -55,7 +55,7 @@ class ListaParole:
             print(f"Username: {curent.username}")
             print(f"Parola: {curent.parola}")
             curent = curent.next
-            #daca exista conturi,parcurge lsita si afiseaza fiecare cont
+            #daca exista conturi, parcurge lsita si afiseaza fiecare cont
 
 #6functia de cautare
     def cauta(self, site):
@@ -135,8 +135,6 @@ def hash_parola(parola, salt):
 
 #11functia initializare
 def initializare():
-    if not os.path.exists(FILE_NAME):
-        #verifica daca fisierul json exista deja
 
         parola_master = input("Seteaza parola principala: ")
         #daca nu exista cere parola principala
@@ -174,7 +172,7 @@ def autentificare():
 
     print("Parola incorecta!")
     return False
-#daca sunt egale parola este corecta ,daca nu, nu
+#daca sunt egale parola este corecta, daca nu, nu
 
 
 #13incarcarea si salvarea fisierelor
@@ -206,7 +204,7 @@ def meniu():
     lista.incarca(date["parole"])
     #incarca parolele salvate
 
-#16meniul aplicatiei
+#16meniul aplicatiei.
     while True:
 
         print("\n===== MANAGER DE PAROLE =====")
@@ -219,7 +217,7 @@ def meniu():
 
         opt = input("Alege optiunea: ")
 
-#optiunea 1 adaugare cont
+#optiunea 1 adaugare cont.
         if opt == "1":
 
             site = input("Site: ")
@@ -262,7 +260,7 @@ def meniu():
             else:
                 print("Nu exista.")
 
-#optiunea 5 salvare
+#optiunea 5 salvare.
         elif opt == "5":
 
             date["parole"] = lista.in_lista()
@@ -271,7 +269,7 @@ def meniu():
 
             print("Date salvate.")
 
-#optiunea o iesire
+#optiunea o iesire.
         elif opt == "0":
 
             date["parole"] = lista.in_lista()
@@ -282,8 +280,8 @@ def meniu():
 
         else:
             print("Optiune invalida.")
-            #salveaza datele si opreste programul
+            #salveaza datele si opreste programul.
 
-#pornirea programului
+#pornirea programului.
 if __name__ == "__main__":
     meniu()
